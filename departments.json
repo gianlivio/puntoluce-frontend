@@ -1,0 +1,1490 @@
+[
+  {
+    "id": "1012",
+    "name": "Abbigliamento da lavoro",
+    "subdepartments": [
+      {
+        "name": "Accessori abbigliamento da lavoro",
+        "url": "https://shop.puntoluce.net/Accessori-abbigliamento-da-lavoro"
+      },
+      {
+        "name": "Giacche da lavoro",
+        "url": "https://shop.puntoluce.net/Giacche-da-lavoro"
+      },
+      {
+        "name": "Maglie e polo da lavoro",
+        "url": "https://shop.puntoluce.net/Maglie-e-polo-da-lavoro"
+      },
+      {
+        "name": "Pantaloni da lavoro",
+        "url": "https://shop.puntoluce.net/Pantaloni-da-lavoro"
+      },
+      {
+        "name": "Scarpe da lavoro",
+        "url": "https://shop.puntoluce.net/Scarpe-da-lavoro"
+      }
+    ]
+  },
+  {
+    "id": "14",
+    "name": "Accessori per illuminazione",
+    "subdepartments": [
+      {
+        "name": "Cavi per abatjour",
+        "url": "https://shop.puntoluce.net/Cavi-per-abatjour"
+      },
+      {
+        "name": "Deviatori volanti",
+        "url": "https://shop.puntoluce.net/Deviatori-volanti"
+      },
+      {
+        "name": "Interruttori a pedale",
+        "url": "https://shop.puntoluce.net/Interruttori-a-pedale"
+      },
+      {
+        "name": "Interruttori volanti",
+        "url": "https://shop.puntoluce.net/Interruttori-volanti"
+      },
+      {
+        "name": "Portalampada a candela e accessori",
+        "url": "https://shop.puntoluce.net/Portalampada-a-candela-e-accessori"
+      },
+      {
+        "name": "Portalampada e ricambi per fluorescenti",
+        "url": "https://shop.puntoluce.net/Portalampada-e-ricambi-per-fluorescenti"
+      },
+      {
+        "name": "Portalampada in metallo",
+        "url": "https://shop.puntoluce.net/Portalampada-in-metallo"
+      },
+      {
+        "name": "Portalampada in plastica",
+        "url": "https://shop.puntoluce.net/Portalampada-in-plastica"
+      },
+      {
+        "name": "Portalampada in porcellana",
+        "url": "https://shop.puntoluce.net/Portalampada-in-porcellana"
+      },
+      {
+        "name": "Portalampada vari",
+        "url": "https://shop.puntoluce.net/Portalampada-vari"
+      },
+      {
+        "name": "Pulsanti volanti",
+        "url": "https://shop.puntoluce.net/Pulsanti-volanti"
+      },
+      {
+        "name": "Reattori e accenditori per lampade a scarica",
+        "url": "https://shop.puntoluce.net/Reattori-e-accenditori-per-lampade-a-scarica"
+      },
+      {
+        "name": "Reattori e starter per fluorescenti",
+        "url": "https://shop.puntoluce.net/Reattori-e-starter-per-fluorescenti"
+      },
+      {
+        "name": "Regolatori di luminosità",
+        "url": "https://shop.puntoluce.net/Regolatori-di-luminosit%C3%A0"
+      },
+      {
+        "name": "Relè passo passo",
+        "url": "https://shop.puntoluce.net/rele-passo-passo"
+      },
+      {
+        "name": "Riflettori",
+        "url": "https://shop.puntoluce.net/Riflettori"
+      },
+      {
+        "name": "Rosoni",
+        "url": "https://shop.puntoluce.net/Rosoni"
+      },
+      {
+        "name": "Sensori di movimento",
+        "url": "https://shop.puntoluce.net/Sensori-di-movimento"
+      },
+      {
+        "name": "Trasformatori bassa tensione",
+        "url": "https://shop.puntoluce.net/Trasformatori-bassa-tensione"
+      },
+      {
+        "name": "Vari accessori per lampadari",
+        "url": "https://shop.puntoluce.net/Vari-accessori-per-lampadari"
+      }
+    ]
+  },
+  {
+    "id": "106",
+    "name": "Accessori per l'installazione",
+    "subdepartments": [
+      {
+        "name": "Adesivi colle e siliconi",
+        "url": "https://shop.puntoluce.net/Adesivi-colle-e-siliconi"
+      },
+      {
+        "name": "Bombolette e liquidi",
+        "url": "https://shop.puntoluce.net/Bombolette-e-liquidi"
+      },
+      {
+        "name": "Capicorda e giunti",
+        "url": "https://shop.puntoluce.net/Capicorda-e-giunti"
+      },
+      {
+        "name": "Condensatori",
+        "url": "https://shop.puntoluce.net/Condensatori"
+      },
+      {
+        "name": "Connettori",
+        "url": "https://shop.puntoluce.net/Connettori"
+      },
+      {
+        "name": "Dispersori di terra e accessori",
+        "url": "https://shop.puntoluce.net/Dispersori-di-terra-e-accessori"
+      },
+      {
+        "name": "Fascette e raccoglicavi",
+        "url": "https://shop.puntoluce.net/Fascette-e-raccoglicavi"
+      },
+      {
+        "name": "Fusibili",
+        "url": "https://shop.puntoluce.net/Fusibili"
+      },
+      {
+        "name": "Graffette",
+        "url": "https://shop.puntoluce.net/Graffette"
+      },
+      {
+        "name": "Guaine per cablaggio",
+        "url": "https://shop.puntoluce.net/Guaine-per-cablaggio"
+      },
+      {
+        "name": "Isolatori distanziali e portanti",
+        "url": "https://shop.puntoluce.net/Isolatori-distanziali-e-portanti"
+      },
+      {
+        "name": "Lampade portatili",
+        "url": "https://shop.puntoluce.net/Lampade-portatili"
+      },
+      {
+        "name": "Morsettiere",
+        "url": "https://shop.puntoluce.net/Morsettiere"
+      },
+      {
+        "name": "Nastro isolante",
+        "url": "https://shop.puntoluce.net/Nastro-isolante"
+      },
+      {
+        "name": "Passacavi",
+        "url": "https://shop.puntoluce.net/Passacavi"
+      },
+      {
+        "name": "Pinze e cavi collegamento batteria",
+        "url": "https://shop.puntoluce.net/Pinze-e-cavi-collegamento-batteria"
+      },
+      {
+        "name": "Sonde tirafili",
+        "url": "https://shop.puntoluce.net/Sonde-tirafili"
+      },
+      {
+        "name": "Strumenti e tester",
+        "url": "https://shop.puntoluce.net/Strumenti-e-tester"
+      },
+      {
+        "name": "Tasselli",
+        "url": "https://shop.puntoluce.net/Tasselli"
+      },
+      {
+        "name": "Utensili",
+        "url": "https://shop.puntoluce.net/Utensili"
+      }
+    ]
+  },
+  {
+    "id": "254",
+    "name": "Automazione cancelli",
+    "subdepartments": [
+      {
+        "name": "BFT automazioni e ricambi",
+        "url": "https://shop.puntoluce.net/BFT-automazioni-e-ricambi"
+      },
+      {
+        "name": "Came automazioni e ricambi",
+        "url": "https://shop.puntoluce.net/Came-automazioni-e-ricambi"
+      },
+      {
+        "name": "Comandi per automatismi",
+        "url": "https://shop.puntoluce.net/Comandi-per-automatismi"
+      },
+      {
+        "name": "Elvox automazioni e ricambi",
+        "url": "https://shop.puntoluce.net/Elvox-automazioni-e-ricambi"
+      },
+      {
+        "name": "Faac automazioni e ricambi",
+        "url": "https://shop.puntoluce.net/Faac-automazioni-e-ricambi"
+      },
+      {
+        "name": "Kit cancelli battente",
+        "url": "https://shop.puntoluce.net/Kit-cancelli-battente"
+      },
+      {
+        "name": "Kit cancelli scorrevoli",
+        "url": "https://shop.puntoluce.net/Kit-cancelli-scorrevoli"
+      },
+      {
+        "name": "Kit motori garage",
+        "url": "https://shop.puntoluce.net/Kit-motori-garage"
+      },
+      {
+        "name": "Kit motori serrande",
+        "url": "https://shop.puntoluce.net/Kit-motori-serrande"
+      },
+      {
+        "name": "Kit motori tapparelle",
+        "url": "https://shop.puntoluce.net/Kit-motori-tapparelle"
+      },
+      {
+        "name": "Yokis automatismi e ricambi",
+        "url": "https://shop.puntoluce.net/Yokis-automatismi-e-ricambi"
+      }
+    ]
+  },
+  {
+    "id": "1327",
+    "name": "Automazione industriale",
+    "subdepartments": [
+      {
+        "name": "Alimentatori e trasformatori DIN",
+        "url": "https://shop.puntoluce.net/Alimentatori-e-trasformatori-DIN"
+      },
+      {
+        "name": "Componenti di controllo e visualizzazione",
+        "url": "https://shop.puntoluce.net/Componenti-di-controllo-e-visualizzazione"
+      },
+      {
+        "name": "Microinterruttori",
+        "url": "https://shop.puntoluce.net/Microinterruttori"
+      },
+      {
+        "name": "Moduli di sicurezza per automazioni",
+        "url": "https://shop.puntoluce.net/Moduli-di-sicurezza-per-automazioni"
+      },
+      {
+        "name": "Pulsanti e selettori da pannello",
+        "url": "https://shop.puntoluce.net/Pulsanti-e-selettori-da-pannello"
+      },
+      {
+        "name": "Relè industriali e circuito stampato",
+        "url": "https://shop.puntoluce.net/Rel%C3%A8-industriali-e-circuito-stampato"
+      },
+      {
+        "name": "Segnalatori ottico acustici",
+        "url": "https://shop.puntoluce.net/Segnalatori-ottico-acustici"
+      },
+      {
+        "name": "Termocoppie e accessori",
+        "url": "https://shop.puntoluce.net/Termocoppie-e-accessori"
+      }
+    ]
+  },
+  {
+    "id": "118",
+    "name": "Batterie pile",
+    "subdepartments": [
+      {
+        "name": "Batterie acustiche",
+        "url": "https://shop.puntoluce.net/Batterie-acustiche"
+      },
+      {
+        "name": "Batterie alcaline",
+        "url": "https://shop.puntoluce.net/Batterie-alcaline"
+      },
+      {
+        "name": "Batterie litio",
+        "url": "https://shop.puntoluce.net/Batterie-litio"
+      },
+      {
+        "name": "Batterie ricaricabili ricambio",
+        "url": "https://shop.puntoluce.net/Batterie-ricaricabili-ricambio"
+      },
+      {
+        "name": "Carica batterie e accessori",
+        "url": "https://shop.puntoluce.net/Carica-batterie-e-accessori"
+      },
+      {
+        "name": "Micro pile",
+        "url": "https://shop.puntoluce.net/Micro-pile"
+      },
+      {
+        "name": "Pile ricaricabili",
+        "url": "https://shop.puntoluce.net/Pile-ricaricabili"
+      }
+    ]
+  },
+  {
+    "id": "1",
+    "name": "Cavi elettrici",
+    "subdepartments": [
+      {
+        "name": "Cavo 07BQ-F flessibile",
+        "url": "https://shop.puntoluce.net/Cavo-07BQ-F-flessibile"
+      },
+      {
+        "name": "Cavo FG16M16 e FG16OM16",
+        "url": "https://shop.puntoluce.net/Cavo-FG16M16-e-FG16OM16"
+      },
+      {
+        "name": "Cavo FG16OR16",
+        "url": "https://shop.puntoluce.net/Cavo-FG16OR16"
+      },
+      {
+        "name": "Cavo FROR",
+        "url": "https://shop.puntoluce.net/Cavo-FROR"
+      },
+      {
+        "name": "Cavo FS17 unipolare",
+        "url": "https://shop.puntoluce.net/Cavo-FS17-unipolare"
+      },
+      {
+        "name": "Cavo FS18OR18",
+        "url": "https://shop.puntoluce.net/Cavo-FS18OR18"
+      },
+      {
+        "name": "Cavo H01N2-D",
+        "url": "https://shop.puntoluce.net/Cavo-H01N2-D"
+      },
+      {
+        "name": "Cavo H03VH-H piattina",
+        "url": "https://shop.puntoluce.net/Cavo-H03VH-H-piattina"
+      },
+      {
+        "name": "Cavo H03VV-F e H05VV-F multipolare",
+        "url": "https://shop.puntoluce.net/Cavo-H03VV-F-e-H05VV-F-multipolare"
+      },
+      {
+        "name": "Cavo H03VVH2-F",
+        "url": "https://shop.puntoluce.net/Cavo-H03VVH2-F"
+      },
+      {
+        "name": "Cavo H07RN-F",
+        "url": "https://shop.puntoluce.net/Cavo-H07RN-F"
+      },
+      {
+        "name": "Cavo rete lan",
+        "url": "https://shop.puntoluce.net/Cavo-rete-lan"
+      },
+      {
+        "name": "Cavo telefonico",
+        "url": "https://shop.puntoluce.net/Cavo-telefonico"
+      },
+      {
+        "name": "Cavo tondo in tessuto",
+        "url": "https://shop.puntoluce.net/Cavo-tondo-in-tessuto"
+      },
+      {
+        "name": "Cavo treccia in tessuto",
+        "url": "https://shop.puntoluce.net/Cavo-treccia-in-tessuto"
+      },
+      {
+        "name": "Cavo TV e Sat",
+        "url": "https://shop.puntoluce.net/Cavo-TV-e-Sat"
+      },
+      {
+        "name": "Vari cavi elettrici",
+        "url": "https://shop.puntoluce.net/Vari-cavi-elettrici"
+      }
+    ]
+  },
+  {
+    "id": "20",
+    "name": "Citofonia e campanelli",
+    "subdepartments": [
+      {
+        "name": "Ave citofoni e accessori",
+        "url": "https://shop.puntoluce.net/Ave-citofoni-e-accessori"
+      },
+      {
+        "name": "BPT citofoni e accessori",
+        "url": "https://shop.puntoluce.net/BPT-citofoni-e-accessori"
+      },
+      {
+        "name": "BTicino Terraneo citofoni e accessori",
+        "url": "https://shop.puntoluce.net/BTicino-Terraneo-citofoni-e-accessori"
+      },
+      {
+        "name": "Campanelli e citofoni senza fili",
+        "url": "https://shop.puntoluce.net/Campanelli-e-citofoni-senza-fili"
+      },
+      {
+        "name": "Campanelli e suonerie",
+        "url": "https://shop.puntoluce.net/Campanelli-e-suonerie"
+      },
+      {
+        "name": "Comelit citofoni e accessori",
+        "url": "https://shop.puntoluce.net/Comelit-citofoni-e-accessori"
+      },
+      {
+        "name": "Intercomunicanti",
+        "url": "https://shop.puntoluce.net/Intercomunicanti"
+      },
+      {
+        "name": "Kit citofonici",
+        "url": "https://shop.puntoluce.net/Kit-citofonici"
+      },
+      {
+        "name": "Kit videocitofonici",
+        "url": "https://shop.puntoluce.net/Kit-videocitofonici"
+      },
+      {
+        "name": "Spioncini digitali",
+        "url": "https://shop.puntoluce.net/Spioncini-digitali"
+      },
+      {
+        "name": "Urmet citofoni e accessori",
+        "url": "https://shop.puntoluce.net/Urmet-citofoni-e-accessori"
+      },
+      {
+        "name": "Vimar Elvox citofoni e accessori",
+        "url": "https://shop.puntoluce.net/Vimar-Elvox-citofoni-e-accessori"
+      }
+    ]
+  },
+  {
+    "id": "1264",
+    "name": "Climatizzatori",
+    "subdepartments": [
+      {
+        "name": "Accessori e manutenzione climatizzatori",
+        "url": "https://shop.puntoluce.net/Accessori-e-manutenzione-climatizzatori"
+      },
+      {
+        "name": "Canaline condizionatori",
+        "url": "https://shop.puntoluce.net/Canaline-Condizionatori"
+      },
+      {
+        "name": "Climatizzatori Bosch",
+        "url": "https://shop.puntoluce.net/Climatizzatori-Bosch"
+      },
+      {
+        "name": "Climatizzatori Daikin",
+        "url": "https://shop.puntoluce.net/Climatizzatori-Daikin"
+      },
+      {
+        "name": "Climatizzatori Haier",
+        "url": "https://shop.puntoluce.net/Climatizzatori-Haier"
+      },
+      {
+        "name": "Climatizzatori Hisense",
+        "url": "https://shop.puntoluce.net/Climatizzatori-Hisense"
+      },
+      {
+        "name": "Climatizzatori Mitsubishi",
+        "url": "https://shop.puntoluce.net/Climatizzatori-Mitsubishi"
+      },
+      {
+        "name": "Climatizzatori Olimpia Splendid",
+        "url": "https://shop.puntoluce.net/Climatizzatori-Olimpia-Splendid"
+      },
+      {
+        "name": "Climatizzatori portatili",
+        "url": "https://shop.puntoluce.net/Climatizzatori-portatili"
+      },
+      {
+        "name": "Climatizzatori Samsung",
+        "url": "https://shop.puntoluce.net/Climatizzatori-Samsung"
+      },
+      {
+        "name": "Climatizzatori Toshiba",
+        "url": "https://shop.puntoluce.net/Climatizzatori-Toshiba"
+      },
+      {
+        "name": "Tubazioni condizionatore",
+        "url": "https://shop.puntoluce.net/Tubazioni-condizionatore"
+      }
+    ]
+  },
+  {
+    "id": "599",
+    "name": "Elettrodomestici",
+    "subdepartments": []
+  },
+  {
+    "id": "1237",
+    "name": "Energie rinnovabili",
+    "subdepartments": [
+      {
+        "name": "Accessori fotovoltaico",
+        "url": "https://shop.puntoluce.net/Accessori-fotovoltaico"
+      },
+      {
+        "name": "Inverter per fotovoltaico",
+        "url": "https://shop.puntoluce.net/Inverter-per-fotovoltaico"
+      },
+      {
+        "name": "Kit fotovoltaico",
+        "url": "https://shop.puntoluce.net/Kit-fotovoltaico"
+      },
+      {
+        "name": "Quadri e Accessori per Fotovoltaico",
+        "url": "https://shop.puntoluce.net/Quadri-e-Accessori-per-Fotovoltaico"
+      },
+      {
+        "name": "Ricarica veicoli elettrici",
+        "url": "https://shop.puntoluce.net/Ricarica-veicoli-elettrici"
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "name": "Illuminazione per esterni e interni",
+    "subdepartments": [
+      {
+        "name": "Abatjour da parete",
+        "url": "https://shop.puntoluce.net/Abatjour-da-parete"
+      },
+      {
+        "name": "Applique da parete",
+        "url": "https://shop.puntoluce.net/Applique-da-parete"
+      },
+      {
+        "name": "Binari elettrificati e faretti",
+        "url": "https://shop.puntoluce.net/Binari-elettrificati-e-faretti"
+      },
+      {
+        "name": "Catene luminose per illuminazione",
+        "url": "https://shop.puntoluce.net/Catene-luminose-per-illuminazione"
+      },
+      {
+        "name": "Faretti da incasso commerciali",
+        "url": "https://shop.puntoluce.net/Faretti-da-incasso-commerciali"
+      },
+      {
+        "name": "Faretti da incasso residenziali",
+        "url": "https://shop.puntoluce.net/Faretti-da-incasso-residenziali"
+      },
+      {
+        "name": "Faretti da incasso suolo",
+        "url": "https://shop.puntoluce.net/Faretti-da-incasso-suolo"
+      },
+      {
+        "name": "Faretti per interni",
+        "url": "https://shop.puntoluce.net/Faretti-per-interni"
+      },
+      {
+        "name": "Illuminazione a Energia solare",
+        "url": "https://shop.puntoluce.net/Illuminazione-a-Energia-solare"
+      },
+      {
+        "name": "Illuminazione Parchi e Strade",
+        "url": "https://shop.puntoluce.net/Illuminazione-Parchi-e-Strade"
+      },
+      {
+        "name": "Illuminazione residenziale da giardino",
+        "url": "https://shop.puntoluce.net/Illuminazione-residenziale-da-giardino"
+      },
+      {
+        "name": "Lampadari soffitto a sospensione",
+        "url": "https://shop.puntoluce.net/Lampadari-soffitto-a-sospensione"
+      },
+      {
+        "name": "Lampadari soffitto fisso",
+        "url": "https://shop.puntoluce.net/Lampadari-soffitto-fisso"
+      },
+      {
+        "name": "Lampadari soffitto saliscendi",
+        "url": "https://shop.puntoluce.net/Lampadari-soffitto-saliscendi"
+      },
+      {
+        "name": "Lampade da arredo",
+        "url": "https://shop.puntoluce.net/Lampade-da-arredo"
+      },
+      {
+        "name": "Lampade da tavolo",
+        "url": "https://shop.puntoluce.net/Lampade-da-tavolo"
+      },
+      {
+        "name": "Lampade da tavolo e da lavoro",
+        "url": "https://shop.puntoluce.net/Lampade-da-tavolo-e-da-lavoro"
+      },
+      {
+        "name": "Plafoniere d' emergenza",
+        "url": "https://shop.puntoluce.net/Plafoniere-d'-emergenza"
+      },
+      {
+        "name": "Plafoniere e sospensioni",
+        "url": "https://shop.puntoluce.net/Plafoniere-e-sospensioni"
+      },
+      {
+        "name": "Plafoniere per esterni",
+        "url": "https://shop.puntoluce.net/Plafoniere-per-esterni"
+      },
+      {
+        "name": "Plafoniere per interni",
+        "url": "https://shop.puntoluce.net/Plafoniere-per-interni"
+      },
+      {
+        "name": "Plafoniere stagne industriali",
+        "url": "https://shop.puntoluce.net/Plafoniere-stagne-industriali"
+      },
+      {
+        "name": "Portalampada a sospensione",
+        "url": "https://shop.puntoluce.net/Portalampada-a-sospensione"
+      },
+      {
+        "name": "Portalampada da parete",
+        "url": "https://shop.puntoluce.net/Portalampada-da-parete"
+      },
+      {
+        "name": "Proiettori",
+        "url": "https://shop.puntoluce.net/Proiettori"
+      }
+    ]
+  },
+  {
+    "id": "134",
+    "name": "Impianto elettrico da esterno",
+    "subdepartments": [
+      {
+        "name": "Apparecchi di comando",
+        "url": "https://shop.puntoluce.net/Apparecchi-di-comando"
+      },
+      {
+        "name": "Apparecchi di segnalazione per esterni",
+        "url": "https://shop.puntoluce.net/Apparecchi-di-segnalazione-per-esterni"
+      },
+      {
+        "name": "Basi di supporto polifunzionali",
+        "url": "https://shop.puntoluce.net/Basi-di-supporto-polifunzionali"
+      },
+      {
+        "name": "Canali e accessori",
+        "url": "https://shop.puntoluce.net/Canali-e-accessori"
+      },
+      {
+        "name": "Centralini e quadri da parete",
+        "url": "https://shop.puntoluce.net/Centralini-e-quadri-da-parete"
+      },
+      {
+        "name": "Prese fisse o con interruttore di blocco",
+        "url": "https://shop.puntoluce.net/Prese-fisse-o-con-interruttore-di-blocco"
+      },
+      {
+        "name": "Pressacavi",
+        "url": "https://shop.puntoluce.net/Pressacavi"
+      },
+      {
+        "name": "Scatole elettriche da parete",
+        "url": "https://shop.puntoluce.net/Scatole-elettriche-da-parete"
+      },
+      {
+        "name": "Tubi protettivi flessibili e accessori",
+        "url": "https://shop.puntoluce.net/Tubi-protettivi-flessibili-e-accessori"
+      },
+      {
+        "name": "Tubi protettivi rigidi e accessori",
+        "url": "https://shop.puntoluce.net/Tubi-protettivi-rigidi-e-accessori"
+      }
+    ]
+  },
+  {
+    "id": "128",
+    "name": "Impianto elettrico da incasso",
+    "subdepartments": [
+      {
+        "name": "Aspirapolvere centralizzati",
+        "url": "https://shop.puntoluce.net/Aspirapolvere-centralizzati"
+      },
+      {
+        "name": "Cavidotti e pozzetti",
+        "url": "https://shop.puntoluce.net/Cavidotti-e-pozzetti"
+      },
+      {
+        "name": "Centralini da incasso",
+        "url": "https://shop.puntoluce.net/Centralini-da-incasso"
+      },
+      {
+        "name": "Coperchi per scatole",
+        "url": "https://shop.puntoluce.net/Coperchi-per-scatole"
+      },
+      {
+        "name": "Scatole di derivazione",
+        "url": "https://shop.puntoluce.net/Scatole-di-derivazione"
+      },
+      {
+        "name": "Scatole per serie civili",
+        "url": "https://shop.puntoluce.net/Scatole-per-serie-civili"
+      },
+      {
+        "name": "Tubo flessibile",
+        "url": "https://shop.puntoluce.net/Tubo-flessibile"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Impianto elettrico vintage",
+    "subdepartments": [
+      {
+        "name": "C'era una volta - Amica",
+        "url": "https://shop.puntoluce.net/C'era-una-volta-Amica"
+      },
+      {
+        "name": "C'era una volta - Cotto",
+        "url": "https://shop.puntoluce.net/C'era-una-volta-Cotto"
+      },
+      {
+        "name": "C'era una volta - Delux",
+        "url": "https://shop.puntoluce.net/C'era-una-volta-Delux"
+      },
+      {
+        "name": "C'era una volta - Elite",
+        "url": "https://shop.puntoluce.net/C'era-una-volta-Elite"
+      },
+      {
+        "name": "C'era una volta - Eurocotto",
+        "url": "https://shop.puntoluce.net/C'era-una-volta-Eurocotto"
+      },
+      {
+        "name": "C'era una volta - Europa",
+        "url": "https://shop.puntoluce.net/C'era-una-volta-Europa"
+      },
+      {
+        "name": "C'era una volta - Ideal",
+        "url": "https://shop.puntoluce.net/C'era-una-volta-Ideal"
+      },
+      {
+        "name": "C'era una volta - Luxor",
+        "url": "https://shop.puntoluce.net/C'era-una-volta-Luxor"
+      },
+      {
+        "name": "C'era una volta - Nera",
+        "url": "https://shop.puntoluce.net/C'era-una-volta-Nera"
+      },
+      {
+        "name": "C'era una volta - Noir",
+        "url": "https://shop.puntoluce.net/C'era-una-volta-Noir"
+      },
+      {
+        "name": "C'era una volta - Nova",
+        "url": "https://shop.puntoluce.net/C'era-una-volta-Nova"
+      },
+      {
+        "name": "C'era una volta - Oval",
+        "url": "https://shop.puntoluce.net/C'era-una-volta-Oval"
+      },
+      {
+        "name": "C'era una volta - Pietra",
+        "url": "https://shop.puntoluce.net/C'era-una-volta-Pietra"
+      },
+      {
+        "name": "C'era una volta - Rame",
+        "url": "https://shop.puntoluce.net/C'era-una-volta-Rame"
+      },
+      {
+        "name": "C'era una volta - Rettangolo",
+        "url": "https://shop.puntoluce.net/C'era-una-volta-Rettangolo"
+      },
+      {
+        "name": "C'era una volta - Sasso",
+        "url": "https://shop.puntoluce.net/C'era-una-volta-Sasso"
+      },
+      {
+        "name": "C'era una volta - Tonda",
+        "url": "https://shop.puntoluce.net/C'era-una-volta-Tonda"
+      },
+      {
+        "name": "C'era una volta - Volux",
+        "url": "https://shop.puntoluce.net/C'era-una-volta-Volux"
+      },
+      {
+        "name": "C'era una volta prodotti complementari",
+        "url": "https://shop.puntoluce.net/C'era-una-volta-prodotti-complementari"
+      },
+      {
+        "name": "Cavi in tessuto",
+        "url": "https://shop.puntoluce.net/Cavi-in-tessuto"
+      },
+      {
+        "name": "Fanton - Country",
+        "url": "https://shop.puntoluce.net/Fanton-Country"
+      },
+      {
+        "name": "Gi Gambarelli - Ardesia",
+        "url": "https://shop.puntoluce.net/Gi-Gambarelli-Ardesia"
+      },
+      {
+        "name": "Gi Gambarelli - Fusion",
+        "url": "https://shop.puntoluce.net/Gi-Gambarelli-Fusion"
+      },
+      {
+        "name": "Gi Gambarelli - White Italy",
+        "url": "https://shop.puntoluce.net/Gi-Gambarelli-White-Italy"
+      },
+      {
+        "name": "Gi Gambarelli prodotti complementari",
+        "url": "https://shop.puntoluce.net/Gi-Gambarelli-prodotti-complementari"
+      }
+    ]
+  },
+  {
+    "id": "162",
+    "name": "Lampade",
+    "subdepartments": [
+      {
+        "name": "Lampade Alogene",
+        "url": "https://shop.puntoluce.net/Lampade-Alogene"
+      },
+      {
+        "name": "Lampade Decorative",
+        "url": "https://shop.puntoluce.net/Lampade-Decorative"
+      },
+      {
+        "name": "Lampade Fluorescenti",
+        "url": "https://shop.puntoluce.net/Lampade-Fluorescenti"
+      },
+      {
+        "name": "Lampade Incandescenza",
+        "url": "https://shop.puntoluce.net/Lampade-Incandescenza"
+      },
+      {
+        "name": "Lampade Led",
+        "url": "https://shop.puntoluce.net/Lampade-Led"
+      },
+      {
+        "name": "Lampade Scarica",
+        "url": "https://shop.puntoluce.net/Lampade-Scarica"
+      },
+      {
+        "name": "Varie lampade",
+        "url": "https://shop.puntoluce.net/Varie-lampade"
+      }
+    ]
+  },
+  {
+    "id": "1355",
+    "name": "Materiale Idraulico",
+    "subdepartments": [
+      {
+        "name": "Contatori acqua, gas e accessori",
+        "url": "https://shop.puntoluce.net/Contatori-acqua,-gas-e-accessori"
+      },
+      {
+        "name": "Rubinetteria",
+        "url": "https://shop.puntoluce.net/Rubinetteria"
+      },
+      {
+        "name": "Sanitari",
+        "url": "https://shop.puntoluce.net/Sanitari"
+      },
+      {
+        "name": "Scarichi",
+        "url": "https://shop.puntoluce.net/Scarichi"
+      },
+      {
+        "name": "Valvole, Raccordi e Rubinetti",
+        "url": "https://shop.puntoluce.net/Valvole,-Raccordi-e-Rubinetti"
+      }
+    ]
+  },
+  {
+    "id": "349",
+    "name": "Materiale natalizio",
+    "subdepartments": [
+      {
+        "name": "Abeti luminosi natalizi",
+        "url": "https://shop.puntoluce.net/Abeti-luminosi-natalizi"
+      },
+      {
+        "name": "Festoni luminosi natalizi",
+        "url": "https://shop.puntoluce.net/Festoni-luminosi-natalizi"
+      },
+      {
+        "name": "Lampadine e ricambi natalizi",
+        "url": "https://shop.puntoluce.net/Lampadine-e-ricambi-natalizi"
+      },
+      {
+        "name": "Milleluci, tende e stringhe",
+        "url": "https://shop.puntoluce.net/Milleluci,-tende-e-stringhe"
+      }
+    ]
+  },
+  {
+    "id": "99",
+    "name": "Materiale per quadri elettrici",
+    "subdepartments": [
+      {
+        "name": "Accessori modulari BTicino",
+        "url": "https://shop.puntoluce.net/Accessori-modulari-BTicino"
+      },
+      {
+        "name": "Accessori modulari Gewiss",
+        "url": "https://shop.puntoluce.net/Accessori-modulari-Gewiss"
+      },
+      {
+        "name": "Apparecchi da pannello",
+        "url": "https://shop.puntoluce.net/Apparecchi-da-pannello"
+      },
+      {
+        "name": "Apparecchi di comando e sezionamento",
+        "url": "https://shop.puntoluce.net/Apparecchi-di-comando-e-sezionamento"
+      },
+      {
+        "name": "Apparecchi di protezione",
+        "url": "https://shop.puntoluce.net/Apparecchi-di-protezione"
+      },
+      {
+        "name": "Apparecchi di segnalazione",
+        "url": "https://shop.puntoluce.net/Apparecchi-di-segnalazione"
+      },
+      {
+        "name": "Canale per cablaggio elettrico",
+        "url": "https://shop.puntoluce.net/Canale-per-cablaggio-elettrico"
+      },
+      {
+        "name": "Contattori e relè",
+        "url": "https://shop.puntoluce.net/Contattori-e-rel%C3%A8"
+      },
+      {
+        "name": "Crepuscolari, temporizzatori e interruttori orari modulari",
+        "url": "https://shop.puntoluce.net/Crepuscolari,-temporizzatori-e-interruttori-orari-modulari"
+      },
+      {
+        "name": "Differenziali",
+        "url": "https://shop.puntoluce.net/Differenziali"
+      },
+      {
+        "name": "Differenziali magnetotermici",
+        "url": "https://shop.puntoluce.net/Differenziali-magnetotermici"
+      },
+      {
+        "name": "Kit centralini 64-8",
+        "url": "https://shop.puntoluce.net/Kit-centralini-64-8"
+      },
+      {
+        "name": "Magnetotermici",
+        "url": "https://shop.puntoluce.net/Magnetotermici"
+      },
+      {
+        "name": "Materiale per cablaggio elettrico",
+        "url": "https://shop.puntoluce.net/Materiale-per-cablaggio-elettrico"
+      },
+      {
+        "name": "Portafusibili",
+        "url": "https://shop.puntoluce.net/Portafusibili"
+      },
+      {
+        "name": "Quadri per cantiere",
+        "url": "https://shop.puntoluce.net/Quadri-per-cantiere"
+      },
+      {
+        "name": "Quadri per distribuzione energia",
+        "url": "https://shop.puntoluce.net/Quadri-per-distribuzione-energia"
+      },
+      {
+        "name": "Regolazione e controllo liquidi",
+        "url": "https://shop.puntoluce.net/Regolazione-e-controllo-liquidi"
+      },
+      {
+        "name": "Salvamotori e accessori",
+        "url": "https://shop.puntoluce.net/Salvamotori-e-accessori"
+      },
+      {
+        "name": "Trasformatori modulari",
+        "url": "https://shop.puntoluce.net/Trasformatori-modulari"
+      }
+    ]
+  },
+  {
+    "id": "263",
+    "name": "Materiale telefonico",
+    "subdepartments": [
+      {
+        "name": "Adattatori e filtri telefonici",
+        "url": "https://shop.puntoluce.net/Adattatori-e-filtri-telefonici"
+      },
+      {
+        "name": "Centralini telefonici",
+        "url": "https://shop.puntoluce.net/Centralini-telefonici"
+      },
+      {
+        "name": "Kit di alimentazione USB",
+        "url": "https://shop.puntoluce.net/Kit-di-alimentazione-USB"
+      },
+      {
+        "name": "Prese e spine telefoniche",
+        "url": "https://shop.puntoluce.net/Prese-e-spine-telefoniche"
+      },
+      {
+        "name": "Prolunghe telefoniche",
+        "url": "https://shop.puntoluce.net/Prolunghe-telefoniche"
+      },
+      {
+        "name": "Telefoni cordless",
+        "url": "https://shop.puntoluce.net/Telefoni-cordless"
+      },
+      {
+        "name": "Telefoni e adattatori voip",
+        "url": "https://shop.puntoluce.net/Telefoni-e-adattatori-voip"
+      },
+      {
+        "name": "Telefoni GSM",
+        "url": "https://shop.puntoluce.net/Telefoni-GSM"
+      }
+    ]
+  },
+  {
+    "id": "30",
+    "name": "Materiale televisivo",
+    "subdepartments": [
+      {
+        "name": "Amplificatori multibanda da interno",
+        "url": "https://shop.puntoluce.net/Amplificatori-multibanda-da-interno"
+      },
+      {
+        "name": "Antenne",
+        "url": "https://shop.puntoluce.net/Antenne"
+      },
+      {
+        "name": "Centralini da esterno TV",
+        "url": "https://shop.puntoluce.net/Centralini-da-esterno-TV"
+      },
+      {
+        "name": "Centralini da interno",
+        "url": "https://shop.puntoluce.net/Centralini-da-interno"
+      },
+      {
+        "name": "Componenti per la derivazione TV",
+        "url": "https://shop.puntoluce.net/Componenti-per-la-derivazione-TV"
+      },
+      {
+        "name": "Decoder e ricevitori sat",
+        "url": "https://shop.puntoluce.net/Decoder-e-ricevitori-sat"
+      },
+      {
+        "name": "Multiswitch TV e SAT",
+        "url": "https://shop.puntoluce.net/Multiswitch-TV-e-SAT"
+      },
+      {
+        "name": "Parabole",
+        "url": "https://shop.puntoluce.net/Parabole"
+      },
+      {
+        "name": "Prese e spine TV",
+        "url": "https://shop.puntoluce.net/Prese-e-spine-TV"
+      },
+      {
+        "name": "Prolunghe e cavetti TV",
+        "url": "https://shop.puntoluce.net/Prolunghe-e-cavetti-TV"
+      },
+      {
+        "name": "Staffe e supporti TV",
+        "url": "https://shop.puntoluce.net/Staffe-e-supporti-TV"
+      },
+      {
+        "name": "Telecomandi TV",
+        "url": "https://shop.puntoluce.net/Telecomandi-TV"
+      }
+    ]
+  },
+  {
+    "id": "338",
+    "name": "Materiale trasmissione dati",
+    "subdepartments": [
+      {
+        "name": "Access Point",
+        "url": "https://shop.puntoluce.net/Access-Point"
+      },
+      {
+        "name": "Accessori Keystone",
+        "url": "https://shop.puntoluce.net/Accessori-Keystone"
+      },
+      {
+        "name": "Armadi rack e accessori",
+        "url": "https://shop.puntoluce.net/Armadi-rack-e-accessori"
+      },
+      {
+        "name": "Gruppo di continuita",
+        "url": "https://shop.puntoluce.net/Gruppo-di-continuita"
+      },
+      {
+        "name": "Prese e spine dati",
+        "url": "https://shop.puntoluce.net/Prese-e-spine-dati"
+      },
+      {
+        "name": "Prolunghe dati e fibra",
+        "url": "https://shop.puntoluce.net/Prolunghe-dati-e-fibra"
+      },
+      {
+        "name": "Router",
+        "url": "https://shop.puntoluce.net/Router"
+      },
+      {
+        "name": "Switch di rete",
+        "url": "https://shop.puntoluce.net/Switch-di-rete"
+      }
+    ]
+  },
+  {
+    "id": "219",
+    "name": "Multiprese prese e spine",
+    "subdepartments": [
+      {
+        "name": "Adattatori da viaggio",
+        "url": "https://shop.puntoluce.net/Adattatori-da-viaggio"
+      },
+      {
+        "name": "Adattatori elettrici",
+        "url": "https://shop.puntoluce.net/Adattatori-elettrici"
+      },
+      {
+        "name": "Adattatori multipli",
+        "url": "https://shop.puntoluce.net/Adattatori-multipli"
+      },
+      {
+        "name": "Cavetti ricambio",
+        "url": "https://shop.puntoluce.net/Cavetti-ricambio"
+      },
+      {
+        "name": "Multiprese elettriche",
+        "url": "https://shop.puntoluce.net/Multiprese-elettriche"
+      },
+      {
+        "name": "Multiprese IEC309",
+        "url": "https://shop.puntoluce.net/Multiprese-IEC309"
+      },
+      {
+        "name": "Prese",
+        "url": "https://shop.puntoluce.net/Prese"
+      },
+      {
+        "name": "Prese e spine IEC309",
+        "url": "https://shop.puntoluce.net/Prese-e-spine-IEC309"
+      },
+      {
+        "name": "Prese mobili multiple",
+        "url": "https://shop.puntoluce.net/Prese-mobili-multiple"
+      },
+      {
+        "name": "Prolunghe",
+        "url": "https://shop.puntoluce.net/Prolunghe"
+      },
+      {
+        "name": "Prolunghe avvolgibili",
+        "url": "https://shop.puntoluce.net/Prolunghe-avvolgibili"
+      },
+      {
+        "name": "Spine",
+        "url": "https://shop.puntoluce.net/Spine"
+      }
+    ]
+  },
+  {
+    "id": "38",
+    "name": "Serie civili e Placche",
+    "subdepartments": [
+      {
+        "name": "ABB Chiara",
+        "url": "https://shop.puntoluce.net/ABB-Chiara"
+      },
+      {
+        "name": "ABB Zenit",
+        "url": "https://shop.puntoluce.net/ABB-Zenit"
+      },
+      {
+        "name": "Arteleta Integro",
+        "url": "https://shop.puntoluce.net/Arteleta-Integro"
+      },
+      {
+        "name": "Ave Serie 45",
+        "url": "https://shop.puntoluce.net/Ave-Serie-45"
+      },
+      {
+        "name": "Ave Sistema 44",
+        "url": "https://shop.puntoluce.net/Ave-Sistema-44"
+      },
+      {
+        "name": "BTicino Axolute",
+        "url": "https://shop.puntoluce.net/BTicino-Axolute"
+      },
+      {
+        "name": "BTicino Living Now",
+        "url": "https://shop.puntoluce.net/BTicino-Living-Now"
+      },
+      {
+        "name": "BTicino LivingLight",
+        "url": "https://shop.puntoluce.net/BTicino-LivingLight"
+      },
+      {
+        "name": "BTicino Luna",
+        "url": "https://shop.puntoluce.net/BTicino-Luna"
+      },
+      {
+        "name": "BTicino Magic",
+        "url": "https://shop.puntoluce.net/BTicino-Magic"
+      },
+      {
+        "name": "BTicino Matix",
+        "url": "https://shop.puntoluce.net/BTicino-Matix"
+      },
+      {
+        "name": "BTicino Matix Go",
+        "url": "https://shop.puntoluce.net/BTicino-Matix-Go"
+      },
+      {
+        "name": "BTicino My Home",
+        "url": "https://shop.puntoluce.net/BTicino-My-Home"
+      },
+      {
+        "name": "BTicino Netatmo",
+        "url": "https://shop.puntoluce.net/BTicino-Netatmo"
+      },
+      {
+        "name": "FEB TL",
+        "url": "https://shop.puntoluce.net/FEB-TL"
+      },
+      {
+        "name": "Gewiss Chorus",
+        "url": "https://shop.puntoluce.net/Gewiss-Chorus"
+      },
+      {
+        "name": "Gewiss Playbus",
+        "url": "https://shop.puntoluce.net/Gewiss-Playbus"
+      },
+      {
+        "name": "Gewiss System",
+        "url": "https://shop.puntoluce.net/Gewiss-System"
+      },
+      {
+        "name": "Urmet Simon Nea",
+        "url": "https://shop.puntoluce.net/Urmet-Simon-Nea"
+      },
+      {
+        "name": "Vari accessori serie civili",
+        "url": "https://shop.puntoluce.net/Vari-accessori-serie-civili"
+      },
+      {
+        "name": "Vimar 8000",
+        "url": "https://shop.puntoluce.net/Vimar-8000"
+      },
+      {
+        "name": "Vimar Arke",
+        "url": "https://shop.puntoluce.net/Vimar-Arke"
+      },
+      {
+        "name": "Vimar Eikon",
+        "url": "https://shop.puntoluce.net/Vimar-Eikon"
+      },
+      {
+        "name": "Vimar Idea",
+        "url": "https://shop.puntoluce.net/Vimar-Idea"
+      },
+      {
+        "name": "Vimar Linea",
+        "url": "https://shop.puntoluce.net/Vimar-Linea"
+      },
+      {
+        "name": "Vimar Plana",
+        "url": "https://shop.puntoluce.net/Vimar-Plana"
+      }
+    ]
+  },
+  {
+    "id": "278",
+    "name": "Sistemi di sicurezza",
+    "subdepartments": [
+      {
+        "name": "Antifurto Atral",
+        "url": "https://shop.puntoluce.net/Antifurto-Atral"
+      },
+      {
+        "name": "Antifurto BTicino",
+        "url": "https://shop.puntoluce.net/Antifurto-BTicino"
+      },
+      {
+        "name": "Antifurto Comelit Vedo",
+        "url": "https://shop.puntoluce.net/Antifurto-Comelit-Vedo"
+      },
+      {
+        "name": "Antifurto Logisty Alma",
+        "url": "https://shop.puntoluce.net/Antifurto-Logisty-Alma"
+      },
+      {
+        "name": "Antifurto Logisty Sepio",
+        "url": "https://shop.puntoluce.net/Antifurto-Logisty-Sepio"
+      },
+      {
+        "name": "Antifurto Urmet",
+        "url": "https://shop.puntoluce.net/Antifurto-Urmet"
+      },
+      {
+        "name": "Kit TVCC",
+        "url": "https://shop.puntoluce.net/Kit-TVCC"
+      },
+      {
+        "name": "Rivelatori gas e monossido",
+        "url": "https://shop.puntoluce.net/Rivelatori-gas-e-monossido"
+      },
+      {
+        "name": "Sensori vari",
+        "url": "https://shop.puntoluce.net/Sensori-vari"
+      },
+      {
+        "name": "Videosorveglianza",
+        "url": "https://shop.puntoluce.net/Videosorveglianza"
+      }
+    ]
+  },
+  {
+    "id": "517",
+    "name": "Stock e fine serie",
+    "subdepartments": []
+  },
+  {
+    "id": "1266",
+    "name": "Termoidraulica",
+    "subdepartments": [
+      {
+        "name": "Accessori e manutenzione termoidraulica",
+        "url": "https://shop.puntoluce.net/Accessori-e-manutenzione-termoidraulica"
+      },
+      {
+        "name": "Caldaie",
+        "url": "https://shop.puntoluce.net/Caldaie"
+      },
+      {
+        "name": "Elettrovalvole e bobine",
+        "url": "https://shop.puntoluce.net/Elettrovalvole-e-bobine"
+      },
+      {
+        "name": "Impianti gas",
+        "url": "https://shop.puntoluce.net/Impianti-gas"
+      },
+      {
+        "name": "Pompe e accessori",
+        "url": "https://shop.puntoluce.net/Pompe-e-accessori"
+      },
+      {
+        "name": "Pressostati termostati e flussostati",
+        "url": "https://shop.puntoluce.net/Pressostati-termostati-e-flussostati"
+      },
+      {
+        "name": "Scaldabagni e accessori",
+        "url": "https://shop.puntoluce.net/Scaldabagni-e-accessori"
+      },
+      {
+        "name": "Sistemi radianti e accessori",
+        "url": "https://shop.puntoluce.net/Sistemi-radianti-e-accessori"
+      },
+      {
+        "name": "Tubazioni",
+        "url": "https://shop.puntoluce.net/Tubazioni"
+      },
+      {
+        "name": "Valvole e detentori per termosifoni",
+        "url": "https://shop.puntoluce.net/Valvole-e-detentori-per-termosifoni"
+      }
+    ]
+  },
+  {
+    "id": "1307",
+    "name": "Termostati e Cronotermostati",
+    "subdepartments": [
+      {
+        "name": "Cronotermostati ambiente",
+        "url": "https://shop.puntoluce.net/Cronotermostati-ambiente"
+      },
+      {
+        "name": "Termostati ambiente",
+        "url": "https://shop.puntoluce.net/Termostati-ambiente"
+      }
+    ]
+  },
+  {
+    "id": "17",
+    "name": "Torce e lampade notturne",
+    "subdepartments": [
+      {
+        "name": "Luci notturne",
+        "url": "https://shop.puntoluce.net/Luci-notturne"
+      },
+      {
+        "name": "Torce",
+        "url": "https://shop.puntoluce.net/Torce"
+      },
+      {
+        "name": "Torce ricaricabili",
+        "url": "https://shop.puntoluce.net/Torce-ricaricabili"
+      }
+    ]
+  },
+  {
+    "id": "158",
+    "name": "Trattamento aria",
+    "subdepartments": [
+      {
+        "name": "Agitatori d'aria e accessori",
+        "url": "https://shop.puntoluce.net/Agitatori-d'aria-e-accessori"
+      },
+      {
+        "name": "Aspiratori",
+        "url": "https://shop.puntoluce.net/Aspiratori"
+      },
+      {
+        "name": "Barriere d'aria",
+        "url": "https://shop.puntoluce.net/Barriere-d'aria"
+      },
+      {
+        "name": "Depuratori d'aria",
+        "url": "https://shop.puntoluce.net/Depuratori-d'aria"
+      },
+      {
+        "name": "Deumidificatori",
+        "url": "https://shop.puntoluce.net/Deumidificatori"
+      },
+      {
+        "name": "Riscaldamento elettrico",
+        "url": "https://shop.puntoluce.net/Riscaldamento-elettrico"
+      },
+      {
+        "name": "Ventilatori estivi",
+        "url": "https://shop.puntoluce.net/Ventilatori-estivi"
+      }
+    ]
+  },
+  {
+    "id": "32",
+    "name": "Vari",
+    "subdepartments": [
+      {
+        "name": "Accessori per Risparmio energetico",
+        "url": "https://shop.puntoluce.net/Accessori-per-Risparmio-energetico"
+      },
+      {
+        "name": "Alimentatori e convertitori",
+        "url": "https://shop.puntoluce.net/Alimentatori-e-convertitori"
+      },
+      {
+        "name": "Canale passacavi",
+        "url": "https://shop.puntoluce.net/Canale-passacavi"
+      },
+      {
+        "name": "Cavi scaldanti",
+        "url": "https://shop.puntoluce.net/Cavi-scaldanti"
+      },
+      {
+        "name": "Diffusione Sonora",
+        "url": "https://shop.puntoluce.net/Diffusione-Sonora"
+      },
+      {
+        "name": "Dispositivi per comunità",
+        "url": "https://shop.puntoluce.net/Dispositivi-per-comunit%C3%A0"
+      },
+      {
+        "name": "Interruttori orari",
+        "url": "https://shop.puntoluce.net/Interruttori-orari"
+      },
+      {
+        "name": "Trappole per insetti",
+        "url": "https://shop.puntoluce.net/Trappole-per-insetti"
+      }
+    ]
+  }
+]
