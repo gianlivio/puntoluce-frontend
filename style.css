@@ -1418,3 +1418,47 @@ main {
     width: 24px;
     height: 18px;
 }
+
+/* Language selector nel mobile menu */
+.mobile-menu__language-section {
+    border-bottom: 1px solid var(--border-primary);
+    padding-bottom: 15px;
+    margin-bottom: 8px;
+}
+
+.mobile-menu__language-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    padding: 0 10px;
+}
+
+.mobile-language-option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px;
+    border: 1px solid var(--border-primary);
+    border-radius: var(--radius);
+    background: white;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-size: 14px;
+}
+
+.mobile-language-option:hover {
+    background: var(--bg-gray);
+    border-color: var(--color-primary);
+}
+
+.mobile-language-option.selected {
+    background: var(--color-primary);
+    color: white;
+    border-color: var(--color-primary);
+    font-weight: 600;
+}
+
+.mobile-language-option .language-flag {
+    width: 24px;
+    height: 18px;
+}

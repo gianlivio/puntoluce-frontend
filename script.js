@@ -461,6 +461,7 @@ window.addEventListener('resize', function() {
     const languageDropdown = document.getElementById('languageDropdown');
     const currentFlag = document.getElementById('currentFlag');
     const languageOptions = document.querySelectorAll('.language-option');
+    const mobileLanguageOptions = document.querySelectorAll('.mobile-language-option');
 
     // Carica le traduzioni
     async function loadTranslations() {
@@ -486,12 +487,23 @@ window.addEventListener('resize', function() {
             }
         });
 
-        // Aggiorna la bandiera corrente
-        currentFlag.src = `./img/flags/${lang}.png`;
-        currentFlag.alt = lang.toUpperCase();
+        // Aggiorna la bandiera corrente (desktop)
+        if (currentFlag) {
+            currentFlag.src = `./img/flags/${lang}.png`;
+            currentFlag.alt = lang.toUpperCase();
+        }
 
-        // Aggiorna la selezione nel dropdown
+        // Aggiorna la selezione nel dropdown desktop
         languageOptions.forEach(option => {
+            if (option.getAttribute('data-lang') === lang) {
+                option.classList.add('selected');
+            } else {
+                option.classList.remove('selected');
+            }
+        });
+
+        // Aggiorna la selezione nel menu mobile
+        mobileLanguageOptions.forEach(option => {
             if (option.getAttribute('data-lang') === lang) {
                 option.classList.add('selected');
             } else {
@@ -504,15 +516,33 @@ window.addEventListener('resize', function() {
         if (phoneLink && translations[lang] && translations[lang].phone) {
             phoneLink.href = `tel:${translations[lang].phone}`;
         }
+
+        // Aggiorna il testo del bottone "Mostra tutti/meno i reparti"
+        updateDepartmentsButtonText();
     }
 
-    // Toggle dropdown
-    languageSelector.addEventListener('click', (e) => {
-        e.stopPropagation();
-        languageDropdown.classList.toggle('active');
-    });
+    // Aggiorna il testo del bottone reparti nel mobile menu
+    function updateDepartmentsButtonText() {
+        const moreButton = document.getElementById('mobile-departments-more');
+        if (moreButton) {
+            const isExpanded = moreButton.querySelector('.material-symbols-outlined').textContent === 'remove';
+            const key = isExpanded ? 'show_less_departments' : 'show_all_departments';
+            const textSpan = moreButton.querySelector('[data-i18n]');
+            if (textSpan && translations[currentLang] && translations[currentLang][key]) {
+                textSpan.textContent = translations[currentLang][key];
+            }
+        }
+    }
 
-    // Selezione lingua
+    // Toggle dropdown desktop
+    if (languageSelector) {
+        languageSelector.addEventListener('click', (e) => {
+            e.stopPropagation();
+            languageDropdown.classList.toggle('active');
+        });
+    }
+
+    // Selezione lingua desktop
     languageOptions.forEach(option => {
         option.addEventListener('click', (e) => {
             e.stopPropagation();
@@ -522,9 +552,20 @@ window.addEventListener('resize', function() {
         });
     });
 
+    // Selezione lingua mobile
+    mobileLanguageOptions.forEach(option => {
+        option.addEventListener('click', (e) => {
+            e.stopPropagation();
+            const selectedLang = option.getAttribute('data-lang');
+            setLanguage(selectedLang);
+        });
+    });
+
     // Chiudi dropdown cliccando fuori
     document.addEventListener('click', () => {
-        languageDropdown.classList.remove('active');
+        if (languageDropdown) {
+            languageDropdown.classList.remove('active');
+        }
     });
 
     // Inizializza
