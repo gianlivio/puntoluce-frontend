@@ -1041,7 +1041,7 @@ main {
 
 @media (min-width: 1024px) {
     .reparti-section {
-        padding: 40px 20px;
+        padding: 40px 0;
     }
     
     .reparti-grid {
