@@ -417,41 +417,6 @@
     });
 })();
 
-// ===== PUNTO LUCE EXPAND/COLLAPSE =====
-function toggleContent() {
-    const contentWrapper = document.getElementById('contentWrapper');
-    const expandButton = document.getElementById('expandButton');
-    
-    if (!contentWrapper || !expandButton) return;
-    
-    const isExpanded = contentWrapper.classList.contains('expanded');
-    
-    if (isExpanded) {
-        contentWrapper.classList.remove('expanded');
-        expandButton.classList.remove('expanded');
-        
-        setTimeout(() => {
-            document.querySelector('.punto-luce-section')?.scrollIntoView({ 
-                behavior: 'smooth', 
-                block: 'start' 
-            });
-        }, 100);
-    } else {
-        contentWrapper.classList.add('expanded');
-        expandButton.classList.add('expanded');
-    }
-}
-
-window.addEventListener('resize', function() {
-    if (window.innerWidth < 768) {
-        const contentWrapper = document.getElementById('contentWrapper');
-        if (contentWrapper?.classList.contains('expanded')) {
-            toggleContent();
-        }
-    }
-});
-
-
 // ===== LANGUAGE SWITCHER =====
 (function() {
     let translations = {};
