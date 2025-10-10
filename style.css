@@ -65,6 +65,7 @@ button { background: none; border: none; cursor: pointer; font-family: inherit; 
 .header__top {
     display: grid;
     grid-template-columns: 1fr auto;
+   
     grid-template-areas: "logo buttons" "search search";
     row-gap: 8px;
     column-gap: 10px;
@@ -280,7 +281,7 @@ button { background: none; border: none; cursor: pointer; font-family: inherit; 
         justify-content: space-between;
         align-items: center;
         height: var(--header-navigation-height);
-        transition: transform .3s ease, opacity .2s ease;
+        transition: transform .3s ease, opacity .2s ease, height .3s ease;
         will-change: transform;
     }
     
@@ -288,6 +289,8 @@ button { background: none; border: none; cursor: pointer; font-family: inherit; 
         transform: translateY(-100%);
         opacity: 0;
         pointer-events: none;
+        height: 0;
+        overflow: hidden;
     }
     
     @media (prefers-reduced-motion: reduce) {
