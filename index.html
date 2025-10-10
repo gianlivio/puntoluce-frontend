@@ -19,9 +19,21 @@
                     <path d="M6.62 10.79a15.05 15.05 0 006.58 6.58l2.2-2.2a1 1 0 011.06-.21c1.12.45 2.34.69 3.6.69a1 1 0 011 1v3.5a1 1 0 01-1 1C8.95 22 2 15.05 2 6.5a1 1 0 011-1h3.5a1 1 0 011 1c0 1.26.24 2.48.7 3.6a1 1 0 01-.21 1.06l-2.2 2.2z"/>
                 </svg>
                 <span>+39 05119900957</span>
-            </a>
-
-            <span data-i18n="reviews">★★★★★ 4.9/5 - 1000+ recensioni</span>
+            </a>           
+            <!-- Sezione recensioni Feedaty -->
+            <div class="homepage__reviews">
+                <div class="container">
+                    <div class="feedaty_widget" 
+                        data-ver="2021" 
+                        data-id="678e182177ea1" 
+                        data-type="merchant" 
+                        data-variant="Striscia-1" 
+                        data-lang="all"
+                        data-snippets="0"
+                        data-gui="it-IT">
+                    </div>
+                </div>
+            </div>
             <div class="header__bar-language">
                 <div class="language-selector" id="languageSelector">
                     <img src="./img/flags/it.png" alt="IT" class="language-flag" id="currentFlag">
@@ -333,6 +345,19 @@
             <div class="expand-icon" id="expandIcon">▼</div>
         </button>
     </section>
+    <!-- Sezione recensioni carosello -->
+    <div class="homepage__reviews">
+        <div class="container">
+            <div class="feedaty_widget" 
+                data-ver="2021" 
+                data-id="673c415aca599" 
+                data-type="carousel" 
+                data-variant="carosello-1" 
+                data-lang="all"
+                data-gui="it-IT">
+            </div>
+        </div>
+    </div>
 </main>
 
 
@@ -498,7 +523,21 @@
     </div>
 </footer>
 
-
+<!-- Script Feedaty -->
+<script>
+    let feedatyLoaded = false;
+    function loadFeedaty() {
+        if (feedatyLoaded) return;
+        feedatyLoaded = true;
+        const s = document.createElement('script');
+        s.src = 'https://widget.feedaty.com/v3.0.0/js/2021/10213670/feedaty.min.js';
+        s.async = true;
+        document.head.appendChild(s);
+    }
+    document.addEventListener('scroll', loadFeedaty, { once: true, passive: true });
+    document.addEventListener('click', loadFeedaty, { once: true, passive: true });
+    setTimeout(loadFeedaty, 3000);
+</script>
 <script src="script.js"></script>
 </body>
 </html>

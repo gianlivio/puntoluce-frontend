@@ -571,3 +571,4 @@ window.addEventListener('resize', function() {
     // Inizializza
     loadTranslations();
 })();
+

@@ -1462,3 +1462,21 @@ main {
     width: 24px;
     height: 18px;
 }
+
+.header__bar-feedaty {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+
+.header__bar-feedaty .feedaty_widget {
+    min-height: 20px;
+    display: inline-block;
+}
+
+.fdt_merchantStriscia-1_widget_merchant {
+    background: var(--color-primary) !important;
+}
+.fdt_merchantStriscia-1_widget_wrapper > a {
+    color: #ffbe00!important;
+}
