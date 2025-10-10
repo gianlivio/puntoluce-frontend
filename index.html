@@ -21,9 +21,31 @@
                 <span>+39 05119900957</span>
             </a>
 
-            <div class="header__bar-feedaty">★★★★★ 4.9/5 - 1000+ recensioni</div>
+            <span data-i18n="reviews">★★★★★ 4.9/5 - 1000+ recensioni</span>
             <div class="header__bar-language">
-                <span>Italiano</span>
+                <div class="language-selector" id="languageSelector">
+                    <img src="./img/flags/it.png" alt="IT" class="language-flag" id="currentFlag">
+                    <span data-i18n="language">Italiano</span>
+                    <span class="material-symbols-outlined" style="font-size: 18px;">expand_more</span>
+                </div>
+                <div class="language-dropdown" id="languageDropdown">
+                    <div class="language-option" data-lang="it">
+                        <img src="./img/flags/it.png" alt="IT" class="language-flag">
+                        <span>Italiano</span>
+                    </div>
+                    <div class="language-option" data-lang="en">
+                        <img src="./img/flags/en.png" alt="EN" class="language-flag">
+                        <span>English</span>
+                    </div>
+                    <div class="language-option" data-lang="es">
+                        <img src="./img/flags/es.png" alt="ES" class="language-flag">
+                        <span>Español</span>
+                    </div>
+                    <div class="language-option" data-lang="fr">
+                        <img src="./img/flags/fr.png" alt="FR" class="language-flag">
+                        <span>Français</span>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -48,32 +70,32 @@
             <div class="header__account">
                 <button class="header__account-button" data-design-open="account">
                     <span class="material-symbols-outlined">account_circle</span>
-                    <span>Account</span>
+                    <span data-i18n="account">Account</span>
                 </button>
                 
                 <div class="header__account-submenu" id="account">
                     <span class="header__account-arrow"></span>
                     <div class="header__account-content">
                         <div class="header__account-header">
-                            <div class="header__account-heading">Account</div>
+                            <div class="header__account-heading" data-i18n="account">Account</div>
                             <span class="header__account-close material-symbols-outlined" data-design-close="account">close</span>
                         </div>
                         
                         <!-- Contenuto menu (not logged in) -->
                         <div class="header__account-not-logged">
                             <div class="header__account-new-client">
-                                <div class="header__account-new-client-text">Sei un nuovo cliente?</div>
+                                <div class="header__account-new-client-text" data-i18n="new_customer">Sei un nuovo cliente?</div>
                                 <div class="header__account-sign-up">
-                                    <a href="https://shop.puntoluce.net/sign-up">Registrati, è veloce e facile</a>
+                                    <a href="https://shop.puntoluce.net/sign-up"><span data-i18n="sign_up">Registrati, è veloce e facile</span></a>
                                 </div>
                             </div>
                             <div class="header__account-log-in">
                                 <div class="header__account-log-in-button">
-                                    <a href="https://shop.puntoluce.net/login">Login</a>
+                                    <a href="https://shop.puntoluce.net/login"><span data-i18n="login">Login</span></a>
                                 </div>
                                 <div class="header__account-remember-password">
                                     <a href="https://shop.puntoluce.net/remember-password">
-                                        <span>Password dimenticata?</span>
+                                        <span data-i18n="forgot_password">Password dimenticata?</span>
                                     </a>
                                 </div>
                             </div>
@@ -94,7 +116,7 @@
         <ul class="header__navigation-left">
             <li class="header__navigation-item header__navigation-item--highlight">
                 <button type="button">
-                    Reparti
+                    <span data-i18n="departments">Reparti</span>
                     <span class="material-symbols-outlined">expand_more</span>
                 </button>
                 <div id="departments-menu">
@@ -107,46 +129,46 @@
                 </div>
             </li>
             <li class="header__navigation-item">
-                <a href="https://shop.puntoluce.net/promotions">Promozioni</a>
+                <a href="https://shop.puntoluce.net/promotions"><span data-i18n="promotions">Promozioni</span></a>
             </li>
             <li class="header__navigation-item">
-                <a href="https://shop.puntoluce.net/new-releases">Novità</a>
+                <a href="https://shop.puntoluce.net/new-releases"><span data-i18n="new_releases">Novità</span></a>
             </li>
             <li class="header__navigation-item">
-                <a href="https://shop.puntoluce.net/Pagamenti">Pagamenti</a>
+                <a href="https://shop.puntoluce.net/Pagamenti"><span data-i18n="payments">Pagamenti</span></a>
             </li>
             <li class="header__navigation-item">
-                <a href="https://shop.puntoluce.net/Punto-Luce-dove-il-buio-non-e'-mai-di-casa">Chi siamo</a>
+                <a href="https://shop.puntoluce.net/Punto-Luce-dove-il-buio-non-e'-mai-di-casa"><span data-i18n="who_we_are">Chi siamo</span></a>
             </li>
             <li class="header__navigation-item">
-                <a href="https://shop.puntoluce.net/contact-us">Contattaci</a>
+                <a href="https://shop.puntoluce.net/contact-us"><span data-i18n="contact_us">Contattaci</span></a>
             </li>
             <li class="header__navigation-item">
-                <a href="https://shop.puntoluce.net/Agevolazioni-fiscali">Agevolazioni Fiscali</a>
+                <a href="https://shop.puntoluce.net/Agevolazioni-fiscali"><span data-i18n="tax_benefits">Agevolazioni Fiscali</span></a>
             </li>
         </ul>
         
         <ul class="header__navigation-right">
             <li class="header__navigation-item">
-                <a href="https://www.puntoluce.net/comefare/">Blog</a>
+                <a href="https://www.puntoluce.net/comefare/"><span data-i18n="blog">Blog</span></a>
             </li>
             <li class="header__navigation-item">
                 <button type="button">
-                    Negozio
+                    <span data-i18n="shop">Negozio</span>
                     <span class="material-symbols-outlined">expand_more</span>
                 </button>
                 <div class="header__navigation-submenu">
                     <div class="header__navigation-submenu-item">
-                        <a href="https://shop.puntoluce.net/Domande-frequenti">FAQ</a>
+                        <a href="https://shop.puntoluce.net/Domande-frequenti"><span data-i18n="faq">FAQ</span></a>
                     </div>
                     <div class="header__navigation-submenu-item">
-                        <a href="https://shop.puntoluce.net/Condizioni-di-vendita">Condizioni di Vendita</a>
+                        <a href="https://shop.puntoluce.net/Condizioni-di-vendita"><span data-i18n="sales_conditions">Condizioni di Vendita</span></a>
                     </div>
                     <div class="header__navigation-submenu-item">
-                        <a href="https://shop.puntoluce.net/Diritto-di-recesso">Diritto di Recesso</a>
+                        <a href="https://shop.puntoluce.net/Diritto-di-recesso"><span data-i18n="right_of_withdrawal">Diritto di Recesso</span></a>
                     </div>
                     <div class="header__navigation-submenu-item">
-                        <a href="https://shop.puntoluce.net/Metodologie-di-spedizioni">Spedizioni</a>
+                        <a href="https://shop.puntoluce.net/Metodologie-di-spedizioni"><span data-i18n="shipping">Spedizioni</span></a>
                     </div>
                 </div>
             </li>
@@ -158,7 +180,7 @@
   <div class="mobile-menu__overlay" data-close></div>
   <aside class="mobile-menu__panel" role="dialog" aria-modal="true" aria-labelledby="mobileMenuTitle">
     <div class="mobile-menu__header">
-      <h2 id="mobileMenuTitle">Menu</h2>
+      <h2 id="mobileMenuTitle" data-i18n="menu">Menu</h2>
       <button class="mobile-menu__close" type="button" aria-label="Chiudi" data-close>
         <span class="material-symbols-outlined">close</span>
       </button>
@@ -166,20 +188,20 @@
 
     <nav class="mobile-menu__content">
       <section class="mobile-menu__section">
-        <h3 class="mobile-menu__section-title">Reparti</h3>
+        <h3 class="mobile-menu__section-title" data-i18n="departments">Reparti</h3>
         <ul class="mobile-menu__list" id="mobile-departments-list"><!-- filled by JS --></ul>
 
         <button class="mobile-menu__more" id="mobile-departments-more" type="button">
           <span class="material-symbols-outlined">add</span>
-          Mostra tutti i reparti
+          <span data-i18n="show_all_departments">Mostra tutti i reparti</span>
         </button>
       </section>
 
       <section class="mobile-menu__section">
         <ul class="mobile-menu__list">
-          <li><a class="mobile-menu__link" href="https://shop.puntoluce.net/promotions">Promozioni</a></li>
-          <li><a class="mobile-menu__link" href="https://shop.puntoluce.net/new-releases">Novità</a></li>
-          <li><a class="mobile-menu__link" href="https://www.puntoluce.net/comefare/">Blog</a></li>
+          <li><a class="mobile-menu__link" href="https://shop.puntoluce.net/promotions"><span data-i18n="promotions">Promozioni</span></a></li>
+          <li><a class="mobile-menu__link" href="https://shop.puntoluce.net/new-releases"><span data-i18n="new_releases">Novità</span></a></li>
+          <li><a class="mobile-menu__link" href="https://www.puntoluce.net/comefare/"><span data-i18n="blog">Blog</span></a></li>
         </ul>
       </section>
     </nav>
@@ -189,7 +211,15 @@
 <!-- CONTENUTO PRINCIPALE -->
 
 <main>
+
+
     <div class="container">
+
+        <div class="punto-luce-header">
+            <h1 class="punto-luce-title" data-i18n="main_title">Materiale Elettrico Online...</h1>
+            <h2 class="punto-luce-title" data-i18n="main_subtitle">Acquista Prodotti...</h2>
+            <p class="punto-luce-subtitle" data-i18n="shipping_info">SPEDIZIONI IN ITALIA E ALL'ESTERO</p>
+        </div>
         <section class="reparti-section">
             <div class="reparti-grid">
                 
@@ -241,41 +271,37 @@
 
     <!-- Sezione Punto Luce SEO -->
     <section class="punto-luce-section">
-        <div class="punto-luce-header">
-            <h1 class="punto-luce-title">Materiale Elettrico Online: Vendita Forniture Elettriche e Termoidrauliche</h1>
-            <h2 class="punto-luce-title">Acquista Prodotti Elettrici ed Idraulici dei Migliori Marchi con Consegna Rapida</h2>
-            <p class="punto-luce-subtitle">SPEDIZIONI IN ITALIA E ALL'ESTERO</p>
-        </div>
+
 
         <div class="content-wrapper" id="contentWrapper">
             <div class="punto-luce-content">
-                <p class="intro-text"><strong class="shipping-highlight">CONSEGNA VELOCE 24/48h su tutti i prodotti disponibili a magazzino</strong></p>
+                <p class="intro-text"><strong class="shipping-highlight" data-i18n="fast_delivery">CONSEGNA VELOCE 24/48h su tutti i prodotti disponibili a magazzino</strong></p>
                 
                 <div>
-                    <h2>Perché Scegliere Punto Luce per il Tuo Materiale Elettrico?</h2>
-                    <p>La qualità del servizio si vede dai risultati: <strong class="highlight-text">4.98/5 stelle</strong> nelle recensioni per la vendita online di materiale elettrico. Numeri che parlano chiaro e confermano la nostra leadership nel settore.</p>
+                    <h2 data-i18n="seo_title_1">Perché Scegliere Punto Luce per il Tuo Materiale Elettrico?</h2>
+                    <p data-i18n="seo_text_1">La qualità del servizio si vede dai risultati: <strong class="highlight-text">4.98/5 stelle</strong> nelle recensioni per la vendita online di materiale elettrico. Numeri che parlano chiaro e confermano la nostra leadership nel settore.</p>
                     
-                    <p><strong class="highlight-text">L'eccellenza è il nostro standard</strong></p>
+                    <p><strong class="highlight-text" data-i18n="seo_excellence">L'eccellenza è il nostro standard</strong></p>
                     
-                    <p>Dal 2001 Punto Luce è il punto di riferimento per l'acquisto di materiale elettrico online in Italia. Siamo stati pionieri dell'e-commerce elettrico e oggi rappresentiamo la scelta ideale per professionisti, aziende e privati che cercano qualità, convenienza e affidabilità.</p>
+                    <p data-i18n="seo_text_2">Dal 2001 Punto Luce è il punto di riferimento per l'acquisto di materiale elettrico online in Italia. Siamo stati pionieri dell'e-commerce elettrico e oggi rappresentiamo la scelta ideale per professionisti, aziende e privati che cercano qualità, convenienza e affidabilità.</p>
                     
-                    <h2>Prezzi Competitivi Garantiti</h2>
-                    <p>Offriamo tariffe vantaggiose su tutto il catalogo di materiale elettrico e termoidraulico, con una gestione avanzata del magazzino che ti permette di conoscere in tempo reale la disponibilità dei prodotti e i tempi di consegna certi. Niente sorprese, solo trasparenza.</p>
+                    <h2 data-i18n="seo_title_2">Prezzi Competitivi Garantiti</h2>
+                    <p data-i18n="seo_text_3">Offriamo tariffe vantaggiose su tutto il catalogo di materiale elettrico e termoidraulico, con una gestione avanzata del magazzino che ti permette di conoscere in tempo reale la disponibilità dei prodotti e i tempi di consegna certi. Niente sorprese, solo trasparenza.</p>
                     
-                    <h2>Pagamenti Protetti e Sicuri</h2>
-                    <p>La sicurezza delle tue transazioni è fondamentale. Accettiamo PayPal, bonifico bancario e tutte le principali carte di credito tramite MultiSafePay, garantendo pagamenti protetti e conformi agli standard più elevati di sicurezza online.</p>
+                    <h2 data-i18n="seo_title_3">Pagamenti Protetti e Sicuri</h2>
+                    <p data-i18n="seo_text_4">La sicurezza delle tue transazioni è fondamentale. Accettiamo PayPal, bonifico bancario e tutte le principali carte di credito tramite MultiSafePay, garantendo pagamenti protetti e conformi agli standard più elevati di sicurezza online.</p>
                 </div>
                 
                 <div>
-                    <p>Con oltre 20 anni di esperienza nella vendita online di forniture elettriche e termoidrauliche, Punto Luce si conferma leader di settore sia per la vendita all'ingrosso che al dettaglio. La nostra storia inizia nel 2001, quando abbiamo rivoluzionato il modo di acquistare materiale elettrico in Italia.</p>
+                    <p data-i18n="seo_text_5">Con oltre 20 anni di esperienza nella vendita online di forniture elettriche e termoidrauliche, Punto Luce si conferma leader di settore sia per la vendita all'ingrosso che al dettaglio. La nostra storia inizia nel 2001, quando abbiamo rivoluzionato il modo di acquistare materiale elettrico in Italia.</p>
                     
-                    <h2>Shopping Semplice e Intuitivo</h2>
-                    <p>Il nostro e-commerce è progettato per offrirti un'esperienza d'acquisto fluida e professionale. Naviga tra migliaia di prodotti, verifica disponibilità e prezzi in tempo reale, consulta schede tecniche dettagliate e ordina comodamente dal cantiere o dall'ufficio, 24 ore su 24.</p>
+                    <h2 data-i18n="seo_title_4">Shopping Semplice e Intuitivo</h2>
+                    <p data-i18n="seo_text_6">Il nostro e-commerce è progettato per offrirti un'esperienza d'acquisto fluida e professionale. Naviga tra migliaia di prodotti, verifica disponibilità e prezzi in tempo reale, consulta schede tecniche dettagliate e ordina comodamente dal cantiere o dall'ufficio, 24 ore su 24.</p>
                     
-                    <h2>Spedizioni Rapide e Affidabili</h2>
-                    <p>Collaboriamo con i migliori corrieri nazionali e internazionali (UPS, DHL, GLS, BRT) per garantirti consegne veloci e tracciabili. Spediamo in tutta Italia e all'estero, sia nei paesi UE che extra-UE, con tempi certi e imballaggi professionali.</p>
+                    <h2 data-i18n="seo_title_5">Spedizioni Rapide e Affidabili</h2>
+                    <p data-i18n="seo_text_7">Collaboriamo con i migliori corrieri nazionali e internazionali (UPS, DHL, GLS, BRT) per garantirti consegne veloci e tracciabili. Spediamo in tutta Italia e all'estero, sia nei paesi UE che extra-UE, con tempi certi e imballaggi professionali.</p>
                     
-                    <p>Hai domande o necessiti di assistenza? Il nostro team è a tua disposizione attraverso la sezione contatti. Con Punto Luce puoi: ottimizzare i costi per l'acquisto di materiale elettrico all'ingrosso, verificare disponibilità immediata dei prodotti, consultare cataloghi aggiornati di tutte le migliori marche e acquistare in qualsiasi momento con prezzi chiari e visibili.</p>
+                    <p data-i18n="seo_text_8">Hai domande o necessiti di assistenza? Il nostro team è a tua disposizione attraverso la sezione contatti. Con Punto Luce puoi: ottimizzare i costi per l'acquisto di materiale elettrico all'ingrosso, verificare disponibilità immediata dei prodotti, consultare cataloghi aggiornati di tutte le migliori marche e acquistare in qualsiasi momento con prezzi chiari e visibili.</p>
                 </div>
             </div>
             <div class="fade-overlay"></div>
@@ -295,7 +321,7 @@
             <div class="footer__columns-container">
                 
                 <div class="footer__column">
-                    <h3 class="footer__menu-title">Reparti</h3>
+                    <h3 class="footer__menu-title" data-i18n="footer_departments">Reparti</h3>
                     <div class="footer__column-content">
                         <ul class="footer__menu-list">
                             <li class="footer__menu-item"><a href="https://shop.puntoluce.net/Termoidraulica"><span>Termoidraulica</span></a></li>
@@ -309,43 +335,36 @@
                 </div>
                 
                 <div class="footer__column footer__column--info">
-                    <h3 class="footer__menu-title">Informazioni</h3>
+                    <h3 class="footer__menu-title" data-i18n="footer_info">Informazioni</h3>
                     <div class="footer__column-content">
                         <ul class="footer__menu-list">
                         <li class="footer__menu-item">
                             <a href="https://shop.puntoluce.net/open2b/designing/designer90c78bc701338903a979/Punto-Luce-dove-il-buio-non-e'-mai-di-casa">
-                            Chi siamo
-                            </a>
+                            <span data-i18n="who_we_are">Chi siamo</span></a>
                         </li>
                         <li class="footer__menu-item">
                             <a href="https://shop.puntoluce.net/open2b/designing/designer90c78bc701338903a979/Metodologie-di-spedizioni">
-                            Spedizioni
-                            </a>
+                            <span data-i18n="shipping">Spedizioni</span></a>
                         </li>
                         <li class="footer__menu-item">
                             <a href="https://shop.puntoluce.net/open2b/designing/designer90c78bc701338903a979/Pagamenti">
-                            Pagamenti
-                            </a>
+                           <span data-i18n="payments">Pagamenti</span></a>
                         </li>
                         <li class="footer__menu-item">
                             <a href="https://shop.puntoluce.net/open2b/designing/designer90c78bc701338903a979/Agevolazioni-fiscali">
-                            Agevolazioni fiscali
-                            </a>
+                            <span data-i18n="tax_benefits">Agevolazioni fiscali</span></a>
                         </li>
                         <li class="footer__menu-item">
                             <a href="https://shop.puntoluce.net/open2b/designing/designer90c78bc701338903a979/Domande-frequenti">
-                            FAQ
-                            </a>
+                            <span data-i18n="faq">FAQ</span></a>
                         </li>
                         <li class="footer__menu-item">
                             <a href="https://shop.puntoluce.net/open2b/designing/designer90c78bc701338903a979/Diritto-di-recesso">
-                            Diritto di recesso
-                            </a>
+                            <span data-i18n="right_of_withdrawal">Diritto di recesso</span></a>
                         </li>
                         <li class="footer__menu-item">
                             <a href="https://shop.puntoluce.net/open2b/designing/designer90c78bc701338903a979/Condizioni-di-vendita">
-                            Condizioni di Vendita
-                            </a>
+                            <span data-i18n="sales_conditions">Condizioni di Vendita</span></a>
                         </li>
                         </ul>
                     </div>
@@ -353,7 +372,7 @@
 
                 
                 <div class="footer__column">
-                    <h3 class="footer__contact-title">Contatti</h3>
+                    <h3 class="footer__contact-title" data-i18n="footer_contacts">Contatti</h3>
                     <div class="footer__column-content">
                         <div class="footer__contact-item">
                             <svg class="contact-icon" viewBox="0 0 24 24" fill="#037dd3">
@@ -365,7 +384,7 @@
                             <svg class="contact-icon" viewBox="0 0 24 24" fill="#037dd3">
                                 <path d="M4 4h16c1.1 0 2 .9 2 2v12a2 2 0 01-2 2H4a2 2 0 01-2-2V6c0-1.1.9-2 2-2zm0 4v10h16V8l-8 5-8-5z"/>
                             </svg>
-                            <a href="/open2b/designing/designer90c78bc701338903a979/contact-us-modal" data-design-open-modal="720x640" title="Mandaci una mail">Mandaci una mail</a>
+                            <a href="https://shop.puntoluce.net/contact-us" title="Mandaci una mail"><span data-i18n="send_email">Mandaci una mail</span>
 
                         </div>
                         <div class="footer__contact-item">
@@ -436,7 +455,7 @@
                 </div>
                 
                 <div class="footer__legal">
-                    <p>Punto Luce è un sito di WEB-E Srl | Via Porrettana, 278 - 40037 Sasso Marconi (BO)<br>
+                    <p data-i18n="footer_legal">Punto Luce è un sito di WEB-E Srl | Via Porrettana, 278 - 40037 Sasso Marconi (BO)<br>
                     P.IVA 04108481203 | Copyright © 2024 - TUTTI I DIRITTI RISERVATI</p>
                 </div>
                 

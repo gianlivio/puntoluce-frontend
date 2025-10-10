@@ -450,3 +450,83 @@ window.addEventListener('resize', function() {
         }
     }
 });
+
+
+// ===== LANGUAGE SWITCHER =====
+(function() {
+    let translations = {};
+    let currentLang = localStorage.getItem('selectedLanguage') || 'it';
+
+    const languageSelector = document.getElementById('languageSelector');
+    const languageDropdown = document.getElementById('languageDropdown');
+    const currentFlag = document.getElementById('currentFlag');
+    const languageOptions = document.querySelectorAll('.language-option');
+
+    // Carica le traduzioni
+    async function loadTranslations() {
+        try {
+            const response = await fetch('./translations.json');
+            translations = await response.json();
+            setLanguage(currentLang);
+        } catch (error) {
+            console.error('Errore nel caricamento delle traduzioni:', error);
+        }
+    }
+
+    // Imposta la lingua
+    function setLanguage(lang) {
+        currentLang = lang;
+        localStorage.setItem('selectedLanguage', lang);
+
+        // Aggiorna tutti gli elementi con data-i18n
+        document.querySelectorAll('[data-i18n]').forEach(element => {
+            const key = element.getAttribute('data-i18n');
+            if (translations[lang] && translations[lang][key]) {
+                element.innerHTML = translations[lang][key];
+            }
+        });
+
+        // Aggiorna la bandiera corrente
+        currentFlag.src = `./img/flags/${lang}.png`;
+        currentFlag.alt = lang.toUpperCase();
+
+        // Aggiorna la selezione nel dropdown
+        languageOptions.forEach(option => {
+            if (option.getAttribute('data-lang') === lang) {
+                option.classList.add('selected');
+            } else {
+                option.classList.remove('selected');
+            }
+        });
+
+        // Aggiorna il numero di telefono nel link
+        const phoneLink = document.querySelector('a[href^="tel:"]');
+        if (phoneLink && translations[lang] && translations[lang].phone) {
+            phoneLink.href = `tel:${translations[lang].phone}`;
+        }
+    }
+
+    // Toggle dropdown
+    languageSelector.addEventListener('click', (e) => {
+        e.stopPropagation();
+        languageDropdown.classList.toggle('active');
+    });
+
+    // Selezione lingua
+    languageOptions.forEach(option => {
+        option.addEventListener('click', (e) => {
+            e.stopPropagation();
+            const selectedLang = option.getAttribute('data-lang');
+            setLanguage(selectedLang);
+            languageDropdown.classList.remove('active');
+        });
+    });
+
+    // Chiudi dropdown cliccando fuori
+    document.addEventListener('click', () => {
+        languageDropdown.classList.remove('active');
+    });
+
+    // Inizializza
+    loadTranslations();
+})();

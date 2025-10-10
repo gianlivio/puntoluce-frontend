@@ -312,7 +312,8 @@ button { background: none; border: none; cursor: pointer; font-family: inherit; 
         gap: 3px;
         padding: 5px 15px;
         color: var(--color-text-dark);
-        font-size: 14px;
+        font-size: 15px;
+        font-weight: 600;
     }
     
     .header__navigation-item > a:hover,
@@ -326,7 +327,7 @@ button { background: none; border: none; cursor: pointer; font-family: inherit; 
         color: var(--color-primary);
         border: 2px solid var(--color-primary);
         border-radius: 4px;
-        padding: 8px 15px;
+        padding: 6px 15px;
         background: white;
     }
     
@@ -810,8 +811,9 @@ main {
     padding: 40px 0;
 }
 
-/* ===== SEZIONE REPARTI ===== */
 .reparti-section {
+    max-width: 1500px;
+    margin: 0 auto;
     padding: 20px 10px;
 }
 
@@ -863,13 +865,15 @@ main {
 /* ===== SEZIONE PUNTO LUCE ===== */
 .punto-luce-section {
     width: 100%;
+    max-width: 1500px;
+    margin: 20px auto;
     background: var(--bg-primary);
     border: 1px solid var(--border-primary);
     border-radius: var(--radius);
     box-shadow: var(--shadow);
     overflow: hidden;
     transition: all 0.3s ease;
-    margin: 20px 0;
+    padding: 0 10px;
 }
 
 .punto-luce-header {
@@ -1092,6 +1096,12 @@ main {
     text-align: center;
 }
 
+.footer .container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
 .footer__middle-section {
     display: flex;
     flex-direction: column;
@@ -1296,6 +1306,7 @@ main {
         cursor: default;
         padding: 0;
         text-align: left;
+        margin: 30px 0;
     }
     
     .footer__contact-title::after,
@@ -1337,4 +1348,73 @@ main {
     .footer__aicel img {
         max-width: 150px;
     }
+}
+
+
+/* ===== LANGUAGE SELECTOR ===== */
+.header__bar-language {
+    position: relative;
+}
+
+.language-selector {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 3px;
+    transition: background-color 0.2s;
+}
+
+.language-selector:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.language-flag {
+    width: 20px;
+    height: 15px;
+    object-fit: cover;
+    border-radius: 2px;
+}
+
+.language-dropdown {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background: white;
+    border: 1px solid var(--border-primary);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    min-width: 160px;
+    z-index: 1000;
+    display: none;
+    margin-top: 5px;
+}
+
+.language-dropdown.active {
+    display: block;
+}
+
+.language-option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 15px;
+    cursor: pointer;
+    color: var(--color-text-dark);
+    transition: background-color 0.2s;
+}
+
+.language-option:hover {
+    background-color: var(--bg-gray);
+}
+
+.language-option.selected {
+    background-color: var(--bg-gray);
+    font-weight: 600;
+}
+
+.language-option .language-flag {
+    width: 24px;
+    height: 18px;
 }
