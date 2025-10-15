@@ -1123,6 +1123,7 @@ main {
     transition: color 0.3s;
     display: block;
     padding: 5px 0;
+    font-weight: 500;
 }
 
 .footer__menu-item a:hover {

@@ -417,123 +417,163 @@
     });
 })();
 
-// ===== LANGUAGE SWITCHER =====
 (function() {
-    let translations = {};
-    let currentLang = localStorage.getItem('selectedLanguage') || 'it';
+  "use strict";
 
-    const languageSelector = document.getElementById('languageSelector');
-    const languageDropdown = document.getElementById('languageDropdown');
-    const currentFlag = document.getElementById('currentFlag');
-    const languageOptions = document.querySelectorAll('.language-option');
-    const mobileLanguageOptions = document.querySelectorAll('.mobile-language-option');
+  /*** CONFIG: lingua -> URL di destinazione ***/
+  const LANG_URL = {
+    it: "https://shop.puntoluce.net/",
+    en: "https://shop.puntoluce.net/en/",
+    es: "https://shop.puntoluce.net/es/",
+    fr: "https://shop.puntoluce.net/fr/",
+  };
 
-    // Carica le traduzioni
-    async function loadTranslations() {
-        try {
-            const response = await fetch('./translations.json');
-            translations = await response.json();
-            setLanguage(currentLang);
-        } catch (error) {
-            console.error('Errore nel caricamento delle traduzioni:', error);
-        }
+  /*** ELEMENTI ***/
+  const languageSelector = document.getElementById("languageSelector"); // trigger desktop
+  const languageDropdown = document.getElementById("languageDropdown"); // menu desktop
+  const currentFlag      = document.getElementById("currentFlag");      // bandierina visibile
+  const desktopOptions   = document.querySelectorAll(".language-option");
+  const mobileOptions    = document.querySelectorAll(".mobile-language-option");
+
+  if (languageSelector) {
+    languageSelector.setAttribute("role", "button");
+    languageSelector.setAttribute("tabindex", "0");
+    languageSelector.setAttribute("aria-haspopup", "true");
+    languageSelector.setAttribute("aria-expanded", "false");
+    languageSelector.setAttribute("aria-controls", "languageDropdown");
+  }
+  if (languageDropdown) {
+    languageDropdown.setAttribute("role", "menu");
+  }
+  desktopOptions.forEach(o => o.setAttribute("role", "menuitem"));
+
+  /*** UTILS ***/
+  function getLangFromLocation() {
+    // Prova a dedurre la lingua dall'URL corrente
+    try {
+      const p = location.pathname.toLowerCase();
+      if (p.startsWith("/en/") || p === "/en") return "en";
+      if (p.startsWith("/es/") || p === "/es") return "es";
+      if (p.startsWith("/fr/") || p === "/fr") return "fr";
+    } catch(_) {}
+    return "it";
+  }
+
+  function setCurrentFlagAndLabel(lang) {
+    try {
+      if (currentFlag) {
+        currentFlag.src = `./img/flags/${lang}.png`;
+        currentFlag.alt = lang.toUpperCase();
+      }
+      // Aggiorna la label accanto alla bandiera (se esiste)
+      const label = languageSelector?.querySelector('[data-i18n="language"]') || languageSelector?.querySelector("span:not(.material-symbols-outlined)");
+      if (label) {
+        const map = { it: "Italiano", en: "English", es: "Español", fr: "Français" };
+        label.textContent = map[lang] || "Italiano";
+      }
+    } catch(_) {}
+  }
+
+  function openDropdown() {
+    if (!languageDropdown || !languageSelector) return;
+    languageDropdown.classList.add("active");
+    languageSelector.setAttribute("aria-expanded", "true");
+  }
+  function closeDropdown() {
+    if (!languageDropdown || !languageSelector) return;
+    languageDropdown.classList.remove("active");
+    languageSelector.setAttribute("aria-expanded", "false");
+  }
+  function toggleDropdown() {
+    if (!languageDropdown) return;
+    const isOpen = languageDropdown.classList.contains("active");
+    isOpen ? closeDropdown() : openDropdown();
+  }
+
+  function go(lang, newTab) {
+    const url = LANG_URL[lang] || LANG_URL.it;
+    try { localStorage.setItem("selectedLanguage", lang); } catch(_) {}
+    if (newTab) {
+      window.open(url, "_blank", "noopener");
+    } else {
+      window.location.href = url;
     }
+  }
 
-    // Imposta la lingua
-    function setLanguage(lang) {
-        currentLang = lang;
-        localStorage.setItem('selectedLanguage', lang);
-
-        // Aggiorna tutti gli elementi con data-i18n
-        document.querySelectorAll('[data-i18n]').forEach(element => {
-            const key = element.getAttribute('data-i18n');
-            if (translations[lang] && translations[lang][key]) {
-                element.innerHTML = translations[lang][key];
-            }
-        });
-
-        // Aggiorna la bandiera corrente (desktop)
-        if (currentFlag) {
-            currentFlag.src = `./img/flags/${lang}.png`;
-            currentFlag.alt = lang.toUpperCase();
-        }
-
-        // Aggiorna la selezione nel dropdown desktop
-        languageOptions.forEach(option => {
-            if (option.getAttribute('data-lang') === lang) {
-                option.classList.add('selected');
-            } else {
-                option.classList.remove('selected');
-            }
-        });
-
-        // Aggiorna la selezione nel menu mobile
-        mobileLanguageOptions.forEach(option => {
-            if (option.getAttribute('data-lang') === lang) {
-                option.classList.add('selected');
-            } else {
-                option.classList.remove('selected');
-            }
-        });
-
-        // Aggiorna il numero di telefono nel link
-        const phoneLink = document.querySelector('a[href^="tel:"]');
-        if (phoneLink && translations[lang] && translations[lang].phone) {
-            phoneLink.href = `tel:${translations[lang].phone}`;
-        }
-
-        // Aggiorna il testo del bottone "Mostra tutti/meno i reparti"
-        updateDepartmentsButtonText();
+  /*** INIZIALIZZA STATO CORRENTE (bandiera/label) ***/
+  (function initCurrent() {
+    let lang = "it";
+    try {
+      lang = (localStorage.getItem("selectedLanguage") || document.documentElement.lang || getLangFromLocation() || "it").toLowerCase();
+    } catch(_) {
+      lang = document.documentElement.lang?.toLowerCase() || getLangFromLocation() || "it";
     }
+    setCurrentFlagAndLabel(lang);
+  })();
 
-    // Aggiorna il testo del bottone reparti nel mobile menu
-    function updateDepartmentsButtonText() {
-        const moreButton = document.getElementById('mobile-departments-more');
-        if (moreButton) {
-            const isExpanded = moreButton.querySelector('.material-symbols-outlined').textContent === 'remove';
-            const key = isExpanded ? 'show_less_departments' : 'show_all_departments';
-            const textSpan = moreButton.querySelector('[data-i18n]');
-            if (textSpan && translations[currentLang] && translations[currentLang][key]) {
-                textSpan.textContent = translations[currentLang][key];
-            }
-        }
-    }
-
-    // Toggle dropdown desktop
-    if (languageSelector) {
-        languageSelector.addEventListener('click', (e) => {
-            e.stopPropagation();
-            languageDropdown.classList.toggle('active');
-        });
-    }
-
-    // Selezione lingua desktop
-    languageOptions.forEach(option => {
-        option.addEventListener('click', (e) => {
-            e.stopPropagation();
-            const selectedLang = option.getAttribute('data-lang');
-            setLanguage(selectedLang);
-            languageDropdown.classList.remove('active');
-        });
+  /*** LISTENERS – DESKTOP ***/
+  if (languageSelector) {
+    // Click sul trigger
+    languageSelector.addEventListener("click", (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      toggleDropdown();
     });
 
-    // Selezione lingua mobile
-    mobileLanguageOptions.forEach(option => {
-        option.addEventListener('click', (e) => {
-            e.stopPropagation();
-            const selectedLang = option.getAttribute('data-lang');
-            setLanguage(selectedLang);
-        });
+    // Tastiera: Enter/Space aprono, Esc chiude
+    languageSelector.addEventListener("keydown", (e) => {
+      const key = e.key?.toLowerCase();
+      if (key === "enter" || key === " ") {
+        e.preventDefault();
+        toggleDropdown();
+      } else if (key === "escape") {
+        closeDropdown();
+      }
     });
+  }
 
-    // Chiudi dropdown cliccando fuori
-    document.addEventListener('click', () => {
-        if (languageDropdown) {
-            languageDropdown.classList.remove('active');
-        }
+  // Click fuori: chiudi
+  document.addEventListener("click", (e) => {
+    if (!languageDropdown) return;
+    if (languageDropdown.classList.contains("active")) {
+      const insideSelector = !!e.target.closest("#languageSelector");
+      const insideMenu = !!e.target.closest("#languageDropdown");
+      if (!insideSelector && !insideMenu) closeDropdown();
+    }
+  });
+
+  // Esc globale: chiudi
+  document.addEventListener("keydown", (e) => {
+    if (e.key?.toLowerCase() === "escape") closeDropdown();
+  });
+
+  // Click sulle opzioni desktop (con supporto ctrl/cmd per nuova scheda)
+  desktopOptions.forEach(opt => {
+    opt.addEventListener("click", (e) => {
+      e.stopPropagation();
+      const lang = opt.getAttribute("data-lang");
+      const newTab = e.metaKey || e.ctrlKey || e.button === 1;
+      go(lang, newTab);
+      closeDropdown();
     });
+    // Middle click (mouse wheel) su desktop options
+    opt.addEventListener("auxclick", (e) => {
+      if (e.button === 1) {
+        e.preventDefault();
+        const lang = opt.getAttribute("data-lang");
+        go(lang, true);
+        closeDropdown();
+      }
+    });
+  });
 
-    // Inizializza
-    loadTranslations();
+  /*** LISTENERS – MOBILE ***/
+  mobileOptions.forEach(opt => {
+    opt.addEventListener("click", (e) => {
+      e.stopPropagation();
+      const lang = opt.getAttribute("data-lang");
+      go(lang, false);
+    });
+  });
+
 })();
-
