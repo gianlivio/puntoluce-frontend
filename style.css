@@ -1404,3 +1404,27 @@ main {
 .fdt_merchantStriscia-1_widget_wrapper > a {
     color: #ffbe00!important;
 }
+
+/* HEADER: flag 24×24 solo nel trigger desktop */
+.header__bar-language .language-selector .language-flag {
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+  border-radius: 2px;
+}
+
+/* Dropdown: sincronizza visibilità con ARIA (oltre alla .active) */
+.language-dropdown[aria-hidden="true"] { display: none; }
+.language-dropdown[aria-hidden="false"] { display: block; }
+
+/* Accessibilità: stato focus visibile sul trigger e sulle opzioni */
+.language-selector:focus-visible,
+.language-option:focus-visible,
+.mobile-language-option:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Micro—z-index per sicurezza sopra altri overlay */
+.language-dropdown { z-index: 1100; }

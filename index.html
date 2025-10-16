@@ -123,8 +123,10 @@
                 </div>
             </div>
             <div class="header__bar-language">
-                <div class="language-selector" id="languageSelector">
-                    <img src="./img/flags/it.png" alt="IT" class="language-flag" width="500" height="500" loading="lazy">
+                <div class="language-selector" id="languageSelector" aria-label="Seleziona lingua">
+                    <img src="./img/flags/it.png" id="currentFlag" class="language-flag" width="24" height="24" decoding="async" alt="IT">
+
+
                      <span data-i18n="language">Italiano</span>
                     <span class="material-symbols-outlined" style="font-size: 18px;">expand_more</span>
                 </div>
@@ -168,7 +170,7 @@
         <div class="header__buttons">
             <!-- Menu Account con dropdown -->
             <div class="header__account">
-                <button class="header__account-button" data-design-open="account">
+                <button class="header__account-button" data-design-open="account" aria-expanded="false" aria-controls="account">
                     <span class="material-symbols-outlined">account_circle</span>
                     <span data-i18n="account">Account</span>
                 </button>
